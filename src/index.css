@@ -6,3 +6,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* scroll bar */
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(216, 225, 252);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(45, 53, 77);
+}
+/* scroll bar */

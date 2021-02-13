@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
+import { LanguageContext } from "../../App";
 import "./index.css";
 
+const dictionary = {
+  en: {
+    footer: "This is footer",
+  },
+  ru: {
+    footer: "Это футер",
+  },
+};
+
 const Footer = () => {
-  return <div className="Footer">Footer</div>;
+  const [language] = useContext(LanguageContext);
+
+  return (
+    <div className="Footer">
+      <h2>{dictionary[language].footer}</h2>
+      <h2>{dictionary[language].footer}</h2>
+      <h2>{dictionary[language].footer}</h2>
+      <h2>{dictionary[language].footer}</h2>
+      <h2>{dictionary[language].footer}</h2>
+    </div>
+  );
 };
 
 export default Footer;
