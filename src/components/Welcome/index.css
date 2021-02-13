@@ -1,3 +1,40 @@
 .App .Welcome {
-  border: 1px solid gold;
+  /* background-image: url("./welcome.jpg"); */
+  /* background-size: cover; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .Welcome .Welcome-back {
+  position: absolute;
+  background-image: url("./welcome.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.App .Welcome .Welcome-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 249, 208);
+  position: relative;
+}
+
+.App .Welcome .Welcome-content h1 {
+  font-size: 3rem;
+}
+
+.App .Welcome .Welcome-content h3 {
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.App .Welcome-logo {
+  font-size: 8rem;
 }
