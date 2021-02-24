@@ -4,10 +4,10 @@ import "./index.css";
 
 const dictionary = {
   en: {
-    footer: "This is footer",
+    footer: "Copyright©2021 Anastasia Modina.All Rights Reserved.",
   },
   ru: {
-    footer: "Это футер",
+    footer: "©2021 Модина Анастасия",
   },
 };
 
@@ -16,11 +16,7 @@ const Footer = () => {
 
   return (
     <div className="Footer">
-      <h2>{dictionary[language].footer}</h2>
-      <h2>{dictionary[language].footer}</h2>
-      <h2>{dictionary[language].footer}</h2>
-      <h2>{dictionary[language].footer}</h2>
-      <h2>{dictionary[language].footer}</h2>
+      <div>{dictionary[language].footer}</div>
     </div>
   );
 };

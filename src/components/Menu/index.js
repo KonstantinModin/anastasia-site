@@ -6,11 +6,11 @@ import "./index.css";
 
 const Menu = () => {
   const [showMenu, setShowMenu] = useState(true);
-  const [language, setLanguage] = useContext(LanguageContext);
+  const [, setLanguage] = useContext(LanguageContext);
 
   useEffect(() => {
     const scrollHandler = () => {
-      setShowMenu(window.scrollY < 100);
+      setShowMenu(window.scrollY < 500);
     };
 
     window.addEventListener("scroll", scrollHandler);
@@ -26,7 +26,6 @@ const Menu = () => {
 
   return (
     <div className={`Menu${showMenu ? " open" : ""}`}>
-      <h5>Menu</h5>
       <div className="Menu-languages">
         <img
           src={enFlag}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import Menu from "./components/Menu";
 import Welcome from "./components/Welcome";
@@ -9,9 +9,18 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 export const LanguageContext = React.createContext();
+const defaultLanguage = "en";
 
 function App() {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState(() => {
+    const langFromLocalStorage = window.localStorage.getItem("lang");
+
+    return langFromLocalStorage ? langFromLocalStorage : defaultLanguage;
+  });
+
+  useEffect(() => {
+    window.localStorage.setItem("lang", language);
+  }, [language]);
 
   return (
     <div className="App">

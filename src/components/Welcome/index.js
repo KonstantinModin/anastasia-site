@@ -35,7 +35,6 @@ const Welcome = () => {
     <div className="Welcome">
       <div className="Welcome-back" ref={pageHeader} />
       <div className="Welcome-content">
-        {/* <div className="Welcome-logo">A</div> */}
         <h1>{dictionary[language].h1}</h1>
         <h3>{dictionary[language].h3}</h3>
       </div>

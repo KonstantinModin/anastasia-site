@@ -1,29 +1,21 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../../App";
+import dictionary from "./dictionary";
 import "./index.css";
-
-const dictionary = {
-  en: {
-    info: "This is Info",
-  },
-  ru: {
-    info: "Это информационный блок",
-  },
-};
 
 const Info = () => {
   const [language] = useContext(LanguageContext);
 
   return (
     <div className="Info">
-      <h3>{dictionary[language].info}</h3>
-      <h3>{dictionary[language].info}</h3>
-      <h3>{dictionary[language].info}</h3>
-      <h3>{dictionary[language].info}</h3>
-      <h3>{dictionary[language].info}</h3>
-      <h3>{dictionary[language].info}</h3>
-      <h3>{dictionary[language].info}</h3>
-      <h3>{dictionary[language].info}</h3>
+      {dictionary[language].map(({ header, p }) => (
+        <div className="Info-Card" key={header}>
+          <div className="Info-Card-Header">
+            <h3>{header}</h3>
+          </div>
+          <p>{p}</p>
+        </div>
+      ))}
     </div>
   );
 };

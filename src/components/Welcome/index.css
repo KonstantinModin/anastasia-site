@@ -26,15 +26,11 @@
 }
 
 .App .Welcome .Welcome-content h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .App .Welcome .Welcome-content h3 {
   font-weight: 400;
   font-size: 3rem;
   margin: 0;
-}
-
-.App .Welcome-logo {
-  font-size: 8rem;
 }

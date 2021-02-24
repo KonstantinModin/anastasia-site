@@ -1,4 +1,10 @@
 .App .Footer {
-  border: 1px solid blue;
-  background-color: #4895ef;
+  background-color: white;
+  display: flex;
+  color: black;
+}
+
+.App .Footer div {
+  padding: 1rem;
+  margin: auto;
 }
