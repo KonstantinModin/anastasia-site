@@ -1,13 +1,11 @@
 .App .Info {
   background-color: white;
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-around;
   padding: 1rem;
 }
 
 .App .Info-Card {
-  /* height: 20rem; */
   width: calc(100% / 4 - 3rem);
   box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
   margin: 3rem 1rem;
@@ -22,8 +20,6 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: white;
-  /* text-align: center; */
-  /* width: 100%; */
 }
 
 .App .Info-Card .Info-Card-Header h3 {
@@ -32,5 +28,24 @@
 
 .App .Info-Card p {
   padding: 1rem;
-  /* text-indent: 0.5rem; */
+}
+
+@media screen and (max-width: 991px) {
+  .App .Info {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .App .Info-Card {
+    width: 100%;
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .App .Info-Card .Info-Card-Header {
+    padding: 0.5rem 1rem;
+  }
 }

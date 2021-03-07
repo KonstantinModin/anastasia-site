@@ -6,8 +6,6 @@ import Info from "./components/Info";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 
-import "./App.css";
-
 export const LanguageContext = React.createContext();
 const defaultLanguage = "en";
 

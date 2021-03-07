@@ -24,8 +24,10 @@ const Welcome = () => {
         pageHeader.current.style.transform =
           "translate3d(0," + windowScrollTop + "px,0)";
       };
+
       window.addEventListener("scroll", updateScroll);
-      return function cleanup() {
+
+      return () => {
         window.removeEventListener("scroll", updateScroll);
       };
     }

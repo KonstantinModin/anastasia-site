@@ -1,31 +1,31 @@
 const dictionary = {
   en: [
     {
-      header: "Eng Отношения",
+      header: "Relationship",
       p:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        "Psychotherapy is not limited to romantic relationships - sometimes it even extends to simple friendships. No one is perfect, and in a couple it is not always possible to find a common language with each other. For such couples, classes with a psychologist are a way to open up new opportunities for communication with the help of a mediator.",
     },
     {
-      header: "Eng Работа",
+      header: "Work",
       p:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        "Work is often accompanied by a serious mental stress, it becomes difficult to understand the endless stream of thoughts. Stress due to overload leads to a loss of strength and breakdowns. Changing jobs also creates an increased burden on the mind. And there are also people who call themselves workaholics and simply cannot leave the office. A good psychologist is able to identify situations that can be harmful to health and work. ",
     },
     {
-      header: "Eng Дети",
+      header: "Children",
       p:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        "Parenting problems are universal. Everyone is stressed about that and thinks how to become better parents. Psychologists can test your behavior as a parent, and also identify difficulties in the child. Family therapists can come up with suggestions to help address growing problems.",
     },
     {
-      header: "Eng Понять и принять себя",
+      header: "Feel and accept yourself",
       p:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+        "Sometimes we all need a voice of reason that can challenge negative inner thoughts. People go to a psychologist for a positive opinion that can push them to accept themselves - this is exactly what a professional psychologist will help with. It is psychotherapy that is the best way to get a real idea of the world and yourself.",
     },
   ],
   ru: [
     {
       header: "Отношения",
       p:
-        "Психотерапия не ограничивается романтическими отношениями – иногда распространяется даже на простые дружеские. Никто не идеален, и в паре не всегда получается найти общий язык друг с другом. Для таких пар занятия с психологом – способ открыть новые возможности общения с помощью посредника",
+        "Психотерапия не ограничивается романтическими отношениями – иногда распространяется даже на простые дружеские. Никто не идеален, и в паре не всегда получается найти общий язык друг с другом. Для таких пар занятия с психологом – способ открыть новые возможности общения с помощью посредника.",
     },
     {
       header: "Работа",

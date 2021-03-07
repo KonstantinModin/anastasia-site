@@ -1,6 +1,4 @@
 .App .Welcome {
-  /* background-image: url("./welcome.jpg"); */
-  /* background-size: cover; */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,6 +21,7 @@
   align-items: center;
   color: rgb(255, 249, 208);
   position: relative;
+  text-align: center;
 }
 
 .App .Welcome .Welcome-content h1 {
@@ -33,4 +32,14 @@
   font-weight: 400;
   font-size: 3rem;
   margin: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .App .Welcome .Welcome-content h1 {
+    font-size: 3rem;
+  }
+
+  .App .Welcome .Welcome-content h3 {
+    font-size: 2rem;
+  }
 }

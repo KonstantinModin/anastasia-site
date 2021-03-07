@@ -4,10 +4,10 @@ import "./index.css";
 
 const dictionary = {
   en: {
-    footer: "Copyright©2021 Anastasia Modina.All Rights Reserved.",
+    footer: "Copyright © 2021 Anastasia Modina",
   },
   ru: {
-    footer: "©2021 Модина Анастасия",
+    footer: "© 2021 Модина Анастасия",
   },
 };
 
