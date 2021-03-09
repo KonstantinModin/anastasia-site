@@ -7,6 +7,8 @@ import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 
 export const LanguageContext = React.createContext();
+
+// TODO: language from browser if ru -> ru || ru
 const defaultLanguage = "en";
 
 function App() {

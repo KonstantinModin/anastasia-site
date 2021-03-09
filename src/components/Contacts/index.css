@@ -19,6 +19,10 @@
   text-align: center;
 }
 
+.App .Contacts .Contacts-card h2 {
+  margin: 1rem;
+}
+
 .App .Contacts .Contacts-phone {
   font-size: 2rem;
   padding: 0.5rem 1.5rem;
@@ -65,6 +69,14 @@
   .App .Contacts .Contacts-phone {
     padding: 0.5rem 1.5rem;
     margin: 2rem 0;
+  }
+
+  .App .Contacts .Contacts-phoneIcons img:hover {
+    transform: none;
+  }
+
+  .App .Contacts .Contacts-phone:hover {
+    transform: none;
   }
 }
 

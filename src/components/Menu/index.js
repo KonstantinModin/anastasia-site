@@ -10,7 +10,7 @@ const Menu = () => {
 
   useEffect(() => {
     const scrollHandler = () => {
-      setShowMenu(window.scrollY < 500);
+      setShowMenu(window.scrollY < 350);
     };
 
     window.addEventListener("scroll", scrollHandler);
